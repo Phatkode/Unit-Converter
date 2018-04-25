@@ -27,68 +27,77 @@
 		<!-- Arafat's Assignment Style CSS -->
 		<!--~~~~~~~~~~~~~~~~~~~~~-->	
 		<!--~~~~~~~~~~~~~~~~~~~~~-->	
-		<link rel="stylesheet" type="text/css" href="Assignment Style.css">
+		<link rel="stylesheet" type="text/css" href="Weight Converter.css">
 
 </head>
 
 
 <body>
 
-<div>
-	<h1 class="text center display-4">Unit Converter</h1>
 
-</div>
- <form>
- 	
- 	<div class="form-gorup"> 
-<input class="form-control form-control-lg' type="number" name="inputValue" id="inputValue" placeholder="enterPounds...">
- 	</div>
- 	<br>
- </form>
- <div id="output">
- 	<!-- gram -->
- 	<div class="card bg-primary">
+	<!-- Open Container -->
+	<div 
+	class="container">
+			<br>
+			<br>
+			<h1 
+			class="text center 
+			display-4"
+			><i class="fas fa-weight"></i>
+			Unit Converter
+			<i class="fas fa-thermometer-empty"></i>
+			</h1>
+			<br><br>
+
+		<!-- Enter Pounds -->
+	 	<form>
  		
- 		<div class="card-header">
- 			<h4>Grams</h4>
- 			<div id="gram">
- 				
- 			</div>
- 	</div></div>
-<br>
+	 		<div 
+ 			class="input-group"> 
+				<input class="form-control form-control-lg"
+				type="number" 
+				name="inputValue" 
+				id="inputValue" 
+				placeholder="Enter pounds...">
+ 			
+		 			<div class="input-group-append">
+			 			<select id="unit" class="btn">
+			 				<optgroup label="WEIGHT">	
+					 				<option>Pounds</option>
+					 				<option>Grams</option>
+					 				<option>Kilograms</option>
+					 				<option>Ounces</option>
+			 				</optgroup>
+			 				
+			 				<optgroup label="TEMP">
+				 				<option>Farenheit</option>
+				 				<option>Celsius</option>
+							</optgroup>
 
-<div class="card bg-warning">
- 		
- 		<div class="card-header">
- 			<h4>Kilogram</h4>
- 			<div id="gram">
- 				
- 			</div>
- 	</div>
- </div>
-<br>
+							<optgroup label="LENGTH">
+				 				<option>Meters</option>
+				 				<option>Miles</option>
+				 				<option>Inches</option>
+							</optgroup>
+			 			</select>
+		 			</div>
 
-
-
-<div class="card bg-danger">
- 		
- 		<div class="card-header">
- 			<h4>Ounce</h4>
- 			<div id="gram">
- 				
- 			</div>
- 	</div>
-
-
-
-
- </div>
-
-
+	 		</div>
+	 	    <br>
+	 	<!-- form -->
+	 	</form>
 
 
+	 	<!-- GRAM -->
+	 	<div 
+	 	id="output">
+		 </div>
+	<!-- Close Container -->		 	
+	</div>
 
 
+<!-- js script -->
+<script src="Weight Converter.js"></script>
 
 
 </body>

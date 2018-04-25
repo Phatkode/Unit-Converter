@@ -1,6 +1,13 @@
 body{
-    padding:top;
-    padding bottom:;
-    background-color: #333
+    background-color: black;
+    padding top: 70px
+    padding bottom: 70px;
     color: white;
+    text-align: center;
 }
+
+.lbsleft{
+	text-align: left;
+}
+
+
